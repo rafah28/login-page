@@ -1,0 +1,94 @@
+*a{
+    margin: 0px auto;
+    padding: 0px;
+}
+body{
+    background-image:url(http://media.istockphoto.com/videos/medical-chart-video-id483392151?s=640x640);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: right;
+}
+ul li{
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+    width: 110px;       
+}
+ul li:hover{
+    border:1px solid #b0c4de ;
+    background-color:#b0c4de ;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul li a:hover{
+    color:white;
+}
+#d1{
+    width: 350px;
+    height: 350px;
+    border-radius:900px ;
+    background-color: #b0c4de;
+    color: black;
+    left: 95px;
+    top: 120px;
+     opacity: .7;
+    transition:.4% all;
+    position: absolute;
+    z-index: 1;
+}
+#d1:hover{
+     opacity: .5;
+    transition:.2% all;
+    background-color: white;
+}
+#username{
+    margin-left: 60px;
+    margin-top: 90px;
+    z-index: 2;
+}
+#d2{
+   width: 300px;
+    height: 300px;
+    border-radius:900px ;
+    background-color: #b0c4de;
+    color: black;
+    left: 405px;
+    top: 300px;
+     opacity: .7;
+    transition:.4% all;
+    position: absolute; 
+}
+#d2:hover{
+     opacity: .5;
+    transition:.2% all;
+    background-color: white;
+}
+#sec{
+     margin-left: 90px;
+    margin-top: 70px;
+    
+}
+#d3{
+    position: absolute;
+    top: 500px;
+    left: 60px;
+}
+.inp{
+    width: 200px;
+    height: 30px;
+    background-color:#b0c4de;
+}
+.inp:hover{
+    background-color: white;
+}
