@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(https://media.bnextmedia.com.tw/image/album/2017-01/img-1483612750-33072.jpg);
+}
+header{
+    height: 110px;
+    
+    background-color:#fff;
+    left: 0px;
+    right: 0px;
+    opacity: .3;
+    transition:.2% all;
+}
+h1{
+    color: #4169e1;
+    margin-left: 20px;    
+}
+ul{
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+ul li{
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+    border:1px solid #fff;
+    text-align: center;
+    width: 100px;   
+}
+ul li:hover{
+ background: #fff;   
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+ul li a:hover{
+    color: #6495ed;
+}
+.contain{
+    position: absolute;
+    top: 120px;
+    width: 435px;
+    height: 480px;
+    border: 1px solid #fff;
+    margin-left: 25px;
+}
+fieldset{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 4px;
+    text-align: left;
+}
+input{
+    width: 200px;
+    height: 25px;
+}
+#fs2{
+    text-align: left;
+    height: 150px;
+}
+.radio{
+    width: 50px;
+}
+legend{
+    color: white;
+    font-size: 20pt;
+}
+legend:hover{
+    color:#6495ed ;
+}
+.butt{
+    padding: 5px;
+    margin-left: 9px;
+    margin-top: 5px;
+    background-color: #6495ed;
+    height: 30px;
+}
+.butt:hover{
+    background-color: #fff;
+}
+.img1{
+     position: absolute;
+    left: 150px;
+    top: 410px;
+}
+.img1:hover{
+     opacity: .7;
+    transition:.9% all;
+}
+.img2{
+     position: absolute;
+    left: 230px;
+    top: 414px;
+}
+.img2:hover{
+     opacity: .7;
+    transition:.9% all;
+}
